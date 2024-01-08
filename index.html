@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set, compatibility, and viewport settings -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href='./Assets/style.css'>
+    <!-- Title of the webpage -->
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <!-- Header section with the title of the dashboard -->
+    <header>Weather Dashboard</header>
+
+    <!-- Main content area wrapped in a container -->
+    <main class="container">
+        <!-- Flexbox layout with two columns -->
+        <div class="row">
+            <!-- Column 1: Search area -->
+            <div class="col1">
+                <div id='search-area'>
+                    <!-- Heading for city search -->
+                    <h1 class='h1'>Search for a City:</h1>
+                    <!-- Form for city search with input field and submit button -->
+                    <form id='city-search'>
+                        <input name='city' type="text" id='city' autofocus='true' class='city-input'/>
+                        <button type="submit" id='search-btn' class='btn'>Search</button>
+                    </form>
+                    <!-- Horizontal rule for separation -->
+                    <hr>
+                    <!-- Container for displaying search history -->
+                    <div id="search-history"></div>
+                </div>
+            </div>
+            
+            <!-- Column 2: Current weather and Five-day forecast area -->
+            <div class="col2">
+                <div id='five-day' class='row spacebetween'></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- External scripts for jQuery and Day.js libraries, and custom script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"></script>
+    <script src='./Assets/script.js'></script>
+</body>
+
+</html>
