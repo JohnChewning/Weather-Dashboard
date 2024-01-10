@@ -1,7 +1,5 @@
 # Weather-Dashboard
 
-# Work-Day-Scheduler
-
 ## Introduction
 
 A Weather Dashboard with Current Weather and a Five day forecast. Weather includes Temperature, Humidity, Wind Speed, and UV Index.
