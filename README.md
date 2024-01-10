@@ -10,6 +10,9 @@ A Weather Dashboard with Current Weather and a Five day forecast. Weather includ
 
 The goal with this project was to create a Weather Dashboard that allows a user to search for a city and then get the weather information for the current day as well as a five day forecast. The cities searched by a user will be saved in the local storage and will create a search history button that will be able to call the weather once again from a previously searched city.
 
+Here is a screenshot of the working application:
+![Sceenshot of the Weather Dashboard application](./images/Screenshot%20(1).png)
+
 ## Installation
 
 Pushed the code into the github repository and deployed in into github pages. For review and grading purposes, the application is deployed at [(https://johnchewning.github.io/Weather-Dashboard/)]. 
